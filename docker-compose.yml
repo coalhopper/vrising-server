@@ -19,8 +19,8 @@ services:
       V_RISING_SERVER_UPDATE_MODE: "1" # Enable update checking
 
       # Customize the server
-      V_RISING_SERVER_NAME: "V Rising Docker Test Server"
-      V_RISING_SERVER_DESCRIPTION: "Test server."
+      V_RISING_SERVER_NAME: "Stooge Central"
+      V_RISING_SERVER_DESCRIPTION: "Vampiric Stooges Rise Again!"
       V_RISING_SERVER_GAME_PORT: 9876
       V_RISING_SERVER_QUERY_PORT: 9877
       V_RISING_SERVER_RCON_PORT: 9878
@@ -28,14 +28,15 @@ services:
       V_RISING_SERVER_RCON_PASSWORD: "rc0n"
       V_RISING_SERVER_MAX_CONNECTED_USERS: 1
       V_RISING_SERVER_MAX_CONNECTED_ADMINS: 1
-      V_RISING_SERVER_SAVE_NAME: "test_server"
-      V_RISING_SERVER_PASSWORD: "t35t"
+      V_RISING_SERVER_SAVE_NAME: "Stooge Central"
+      V_RISING_SERVER_PASSWORD: "StoogeVamp"
       V_RISING_SERVER_LIST_ON_MASTER_SERVER: false
       V_RISING_SERVER_LIST_ON_STEAM: false
       V_RISING_SERVER_LIST_ON_EOS: false
       V_RISING_SERVER_AUTO_SAVE_COUNT: 5
       V_RISING_SERVER_AUTO_SAVE_INTERVAL: 10
-      V_RISING_SERVER_GAME_SETTINGS_PRESET: "StandardPvE"
+      # V_RISING_SERVER_GAME_SETTINGS_PRESET: "StandardPvE"
+      V_RISING_SERVER_GAME_SETTINGS_PRESET: "Stooges.json"
 
     ports:
       - "9876:9876/udp"
