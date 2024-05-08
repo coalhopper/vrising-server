@@ -13,9 +13,9 @@ services:
       # Configure the server
       V_RISING_SERVER_PERSISTENT_DATA_PATH: "/app/vrising"
       V_RISING_SERVER_BRANCH: "public"
-      # V_RISING_SERVER_START_MODE: "0" # Install/update and start server
+      V_RISING_SERVER_START_MODE: "0" # Install/update and start server
       # V_RISING_SERVER_START_MODE: "1" # Install/update and exit
-      V_RISING_SERVER_START_MODE: "2" # Install, skip update check and start server
+      # V_RISING_SERVER_START_MODE: "2" # Install, skip update check and start server
       V_RISING_SERVER_UPDATE_MODE: "1" # Enable update checking
 
       # Customize the server
