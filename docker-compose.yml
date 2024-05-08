@@ -6,8 +6,8 @@ services:
     # image: didstopia/vrising-server:latest
     build: .
     container_name: vrising
-    # restart: unless-stopped
-    restart: "no"
+    restart: unless-stopped
+    # restart: "no"
 
     environment:
       # Configure the server
